@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.leftContent,
+.centerContent {
+}
+
+.rightContent {
+    display: flex;
+    align-items: center;
+}
+
+.userProfile {
+    position: relative;
+    cursor: pointer;
+}
+
+.profilePicture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dropdownContent {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none;
+}
+
+.dropdownContent a,
+.dropdownContent button {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdownContent a:hover,
+.dropdownContent button:hover {
+    background-color: #ddd;
+}
+
+.userProfile:hover .dropdownContent {
+    display: block;
+}

@@ -1,0 +1,372 @@
+.logo {
+    margin: auto;
+}
+
+.button,
+.buttonProfile {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+}
+
+/* On click, make button darker */
+.button:active,
+.buttonProfile:active {
+    filter: brightness(80%);
+}
+
+.h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.containerCreateAccount,
+.containerImage,
+.containerInput,
+.containerButton,
+.containerInputText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerInputSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+}
+
+.sliderContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-weight: inherit;
+}
+
+.checkboxContainer {
+    padding: 10px;
+    font-weight: inherit;
+}
+
+.textCreateAccount {
+    font-weight: 100;
+    font-size: 12px;
+    padding: 2px;
+    color: grey;
+}
+
+.textCreateAccountHover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/*.container {*/
+/*    background-color: white;*/
+/*    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);*/
+/*    border-radius: 1em;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 400px;*/
+/*    height: 520px;*/
+/*    margin: auto;*/
+/*    padding: 40px;*/
+/*}*/
+
+.containerInputText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.textInputLeft,
+.textInputRight {
+    font-size: 12px;
+    text-align: center; /* Center the text horizontally */
+}
+
+.textInputRight {
+    color: grey;
+}
+
+.textfield {
+    width: 100%;
+}
+
+.message {
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 12px;
+    color: grey;
+}
+
+.title {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.soldLabel {
+    backface-visibility: hidden;
+    background-color: red;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    padding: 12px;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.buttonSubmit {
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 30px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.editListingButton {
+    backface-visibility: hidden;
+    background-color: green;
+    border-radius: 30px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.linkSubmit {
+    backface-visibility: hidden;
+    color: #fff;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.linkSubmit:link {
+    text-decoration: none;
+    color: white;
+    font-size:inherit;
+    font-weight: 600;
+}
+.linkSubmit:visited {
+    text-decoration: none;
+    color: white;
+    font-size:inherit;
+    font-weight: 600;
+}
+
+.gridItem {
+    padding: 10px;
+}
+
+.bottom {
+    display: flex;
+    bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.textField {
+    width: 100%;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+.textbookListings {
+    flex-direction: row;
+    padding-bottom: 5%;
+}
+
+.autocompleteSearch {
+    width: 200px;
+}
+
+.overallTextbookPost {
+    width: 200px;
+    height: 380px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 30px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 4px 2px inset, rgba(50, 50, 93, .4) 0 2px 5px 0, rgba(0, 0, 0, .07) 1px 1px 1px 1px;
+    box-sizing: border-box;
+    background-color: #F1F1F1;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.textbookPost {
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    border-width: 0;
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.textbookPicture {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    border-radius: 30px;
+    border-width: 0;
+    padding-bottom: 5px;
+}
+
+.smallGrayText {
+    font-size: 12px;
+    color: grey;
+    padding: 5px;
+}
+
+.courseTitleText {
+    font-size: 12px;
+    padding: 5px;
+    white-space: normal;
+}
+
+.containerTextbookPostText{
+    padding: 5px;
+}
+
+.listOfBooks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
+    gap: 10px;
+    overflow: auto;
+    height: 100%;
+    padding: 20px
+    /*padding-bottom: 5%;*/
+    /* grid-gap: 5px; */
+}
+
+
+.filterBox {
+    font-size: 12px;
+    font-weight: 600;
+    /*width: 100%;*/
+    height: 95%;
+    display: flex;
+    /*justify-content: flex-start;*/
+    flex-direction: column;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 4px 2px inset, rgba(50, 50, 93, .4) 0 2px 5px 0, rgba(0, 0, 0, .07) 1px 1px 1px 1px;
+    box-sizing: border-box;
+    background-color: #F1F1F1;
+    align-content: center;
+    align-items: center;
+    overflow: auto;
+    /*justify-content:first baseline;*/
+}
+
+.containerForItem {
+    height: 100%;
+    display:grid;
+    grid-template-columns:1fr 4fr;
+    grid-template-areas:"filterBox listOfBooks";
+    grid-gap:10px;
+    padding: 10px;
+    /*!* padding-left:1%; *!*/
+    /*padding-right:3%;*/
+    /*padding-bottom:10%;*/
+
+}
+
+.containerForItem >div {
+    overflow: auto;
+}
+
+.container { /* INSIDE CONTAINER */
+    background-color: white;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    border-radius: 1em;
+    display: flex;
+    width: 100%;
+    height: 85%;
+    /* overflow: auto;
+    overflow-x: scroll; */
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    white-space: nowrap;
+}

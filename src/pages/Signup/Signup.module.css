@@ -1,0 +1,110 @@
+/* SignUp.module.css */
+
+/* Styles for the signup container */
+.container {
+    background-color: white;
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 520px;
+    margin: auto;
+    padding: 40px;
+}
+
+/* Styles for the container containing the image */
+.containerImage {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+/* Styles for input containers */
+.containerInput {
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+
+/* Styles for the button container */
+.containerButton {
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Styles for input text containers */
+.containerInputText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+/* Styles for links inside input text containers */
+.containerInputText a {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Styles for text on the left side of inputs */
+.textInputLeft {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Styles for text fields */
+.textfield {
+    width: 100%;
+}
+
+/* Styles for the logo */
+.logo {
+    margin: auto;
+}
+
+/* Styles for messages */
+.message {
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 12px;
+    color: grey;
+}
+
+/* Styles for the title */
+.title {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the submit button */
+.buttonSubmit {
+    background-color: #405cf5;
+    border-radius: 30px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset, rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 600;
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    white-space: nowrap;
+}
