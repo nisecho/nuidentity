@@ -51,13 +51,15 @@ const Post = ({id, image_url, pfp, user, caption}) => {
             if (postSnapshot.exists()) {
                 const postData = postSnapshot.data();
                 setLikesCount(postData.likes.length);
+                console.log(postData.likes)
+                console.log(thisUID)
                 setLikedByCurrentUser(postData.likes.includes(thisUID));
             }
         };
 
         fetchPostData();
         fetchLikesData();
-    }, [id, user.uuid]);
+    }, [id, user.uuid, thisUID]);
 
     useEffect(() => {
         const commentsCollection = collection(firestore, 'posts', id, 'comments');
