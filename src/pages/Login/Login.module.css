@@ -55,10 +55,10 @@
 }
 
 .containerInputText {
-    display: flex; /* Use flexbox to create a flexible container */
-    justify-content: space-between; /* Distribute the children evenly along the main axis (horizontally) */
-    align-items: center; /* Center the children vertically */
-    width: 100%; /* Set the parent's width to 100% */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     margin-bottom: 4px;
 }
 

@@ -49,22 +49,18 @@ const MakePost = ({ isOpen, handleClose }) => {
                 uploadTask.on(
                     "state_changed",
                     (snapshot) => {
-                        // Progress monitoring if needed
                     },
                     (error) => {
-                        // Handle any errors during upload
                         console.error("Upload error:", error);
                         reject(error);
                     },
                     () => {
-                        // On successful upload completion
                         console.log("Upload completed!");
                         resolve();
                     }
                 );
             });
 
-            // Get the download URL after successful upload
             const imageUrl = await getDownloadURL(storageRef);
             console.log("Download URL:", imageUrl);
 
@@ -73,13 +69,11 @@ const MakePost = ({ isOpen, handleClose }) => {
             console.log(currentUser)
 
 
-            // Fetch user-specific data from Firestore
             const userDocRef = doc(firestore, 'users', currentUser.uid);
             const userDocSnapshot = await getDoc(userDocRef);
             const userData = userDocSnapshot.data();
 
 
-            // Create a new post document in Firestore
             const postsCollection = collection(firestore, 'posts');
             await addDoc(postsCollection, {
                 image_url: imageUrl,
@@ -91,7 +85,7 @@ const MakePost = ({ isOpen, handleClose }) => {
                 caption: description,
                 date_posted: serverTimestamp(),
                 likes: [],
-                tags: tags, // Add the tags array to the Firestore document
+                tags: tags,
             });
 
             setDescription('');
